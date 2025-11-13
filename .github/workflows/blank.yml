@@ -21,14 +21,10 @@ jobs:
           graph_type: "pacman"
           theme_name: "dark"
 
-      - name: Convert repo URL to lowercase
-        run: |
-          echo "REPO_URL=${GITHUB_REPOSITORY,,}" >> $GITHUB_ENV  # force lowercase
-
       - name: Push pacman.svg to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
-          repo: "${{ env.REPO_URL }}"        # repo pakai lowercase
+          repo: "Rioo-Eins/Rioo-Eins"     # <<< WAJIB sama persis
           target_branch: output
           build_dir: dist
         env:
