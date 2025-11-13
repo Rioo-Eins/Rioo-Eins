@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - uses: actions/checkout@v3
 
@@ -17,12 +18,17 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          graph_type: "pacman"        # Mode maze pacman
-          theme_name: "dark"          # Warna dark mode
+          graph_type: "pacman"
+          theme_name: "dark"
+
+      - name: Convert repo URL to lowercase
+        run: |
+          echo "REPO_URL=${GITHUB_REPOSITORY,,}" >> $GITHUB_ENV  # force lowercase
 
       - name: Push pacman.svg to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
+          repo: "${{ env.REPO_URL }}"        # repo pakai lowercase
           target_branch: output
           build_dir: dist
         env:
