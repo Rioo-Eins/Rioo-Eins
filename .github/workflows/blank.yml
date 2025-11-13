@@ -10,21 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install pacman-contributions
-        run: |
-          npm install -g pacman-contributions
-
       - name: Generate pacman.svg
-        run: |
-          mkdir -p dist
-          pacman-contributions \
-            --username "${{ github.repository_owner }}" \
-            --theme dark \
-            --output dist/pacman.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          graph_type: "pacman"        # Mode maze pacman
+          theme_name: "dark"          # Warna dark mode
 
       - name: Push pacman.svg to output branch
         uses: crazy-max/ghaction-github-pages@v3
