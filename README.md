@@ -20,5 +20,5 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rioo-eins&show_icons=true&locale=en&layout=compact" alt="rioo-eins" /></p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rioo-eins/Rioo-eins/output/pacman.svg" width="800" />
+  <img src="https://raw.githubusercontent.com/rioo-eins/pacman-output/output/pacman.svg" width="800" />
 </p>
