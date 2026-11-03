@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Rio</h1>
 <h3 align="center">I am beginner developer from Indonesia</h3>
 
-- 🌱 I’m currently learning **Dicoding, Udemy, Codepolitan, LearningX**
+- 🌱 I’m currently learning **Dicoding, Udemy, Codepolitan, WPUCourse**
 
 - 💬 Ask me about **HTML, CSS, Java, Python**
 
