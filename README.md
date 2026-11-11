@@ -18,9 +18,6 @@ I'm an IT enthusiast from Indonesia with a background in Computer and Network En
 
 ### Connect With Me
 
-
-### Connect With Me
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rio_Ali_Syahputra-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/m-rio-ali-syahputra/)
 
 [![Instagram](https://img.shields.io/badge/Instagram-rioalisy-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/rioalisy/)
