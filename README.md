@@ -19,5 +19,5 @@ I'm an IT enthusiast from Indonesia with a background in Computer and Network En
 ### Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/m-rio-ali-syahputra)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/rioalisy)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=flat-square&logo=instagram&logoColor=white)]([https://instagram.com/rioalisy](https://www.instagram.com/rioalisy/))
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:muhammadrio7360@gmail.com)
